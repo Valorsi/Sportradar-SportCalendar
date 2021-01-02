@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(10,20,40);
+    margin:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sport-calendar-detail {
+    text-align:center;
+}
+
+.content {
+    margin:40px;
+    padding:40px;
+    background-color:rgba(240,240,240,1);
+    width:max-content;  
+    border-radius:5px;
+}
+
+.filter-wrapper {
+    padding-bottom:20px;
+}
+
+.content-inner {
+    display:flex;
+    justify-content: space-between;
+}
+table {
+    color:black;
+}
+
+td {
+    padding:5px;
+}
+
+.navbar {
+    display:flex;
+    justify-content: row;
+    background-color: rgba(240,240,240,1);
+    padding:10px;
+}
+
+.navbar>a {
+    text-decoration: none;
+    color:rgb(255,0,0);
+    padding-left:30px;
+}
